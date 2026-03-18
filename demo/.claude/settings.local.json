@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(java --version)",
+      "Bash(mvn --version)",
+      "Bash(npm install:*)",
+      "Bash(mvn clean:*)",
+      "Bash(curl -s http://localhost:8080/actuator/health)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(open:*)",
+      "Bash(lsof:*)",
+      "Bash(kill -TERM 65839 65879)"
+    ]
+  }
+}
